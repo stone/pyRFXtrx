@@ -623,7 +623,9 @@ class Lighting4(Packet):
                 0x05: 'On',
                 0x07: 'On',
                 0x09: 'On',
-                0x0c: 'On'}
+                0x0c: 'On',
+                0xc3: 'On',
+                0xab: 'On'}
     """
     Mapping of command numeric values to strings, used for cmnd_string
     """
